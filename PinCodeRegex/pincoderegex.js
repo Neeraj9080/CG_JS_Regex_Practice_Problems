@@ -3,4 +3,4 @@ function validatePIN(pin) {
     return pattern.test(pin);
   }
   
-  console.log(validatePIN("A400088"));  // false
+  console.log(validatePIN("400088B"));  // false
